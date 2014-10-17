@@ -87,51 +87,64 @@ body {
 
 #group1 {
   z-index: 5; /* slide over group 2 */
+
+  .title {
+    text-align: center;
+    margin: auto;
+    font-family: "League-Gothic", Courier;
+    font-size: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 10px 10px 0 #ffd217, 20px 20px 0 #5ac7ff, 30px 30px 0 #ffd217, 40px 40px 0 #5ac7ff;
+    line-height: 100px;
+  }
 }
 #group1 .parallax__layer--base {
-  background: rgb(102,204,102);
+  background: #eee;
+  padding: 100px;
 }
 
 #group2 {
   z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-  background-image: image-url('http://placehold.it/1200x800&text=group1');
-  background-size: cover;
+  background: image-url('wedding-mehndi.jpg') #1c111f no-repeat center center;
+  background-size: contain;
 }
 
 #group3 {
   z-index: 4; /* slide over group 2 and 4 */
 }
 #group3 .parallax__layer--base {
-  background: rgb(153,216,101);
+  background: white;
 }
 
 #group4 {
   z-index: 2; /* slide under group 3 and 5 */
 }
-#group4 .parallax__layer--deep {
-  background: rgb(184,223,101);
+#group4 .parallax__layer--base {
+  background: image-url('wedding-engagement.jpg') #91120c no-repeat center center;
+  background-size: contain;
 }
 
 #group5 {
   z-index: 3; /* slide over group 4 and 6 */
 }
 #group5 .parallax__layer--base {
-  background: rgb(214,229,100);
+  background: white;
 }
 
 #group6 {
   z-index: 2; /* slide under group 5 and 7 */
 }
 #group6 .parallax__layer--back {
-  background-image: image-url('http://placehold.it/1200x800&text=group6');
-  background-size: cover;
+  background: image-url('wedding-reception.jpg') black no-repeat center center;
+  background-size: contain;
 }
 
 #group7 {
   z-index: 3; /* slide over group 7 */
 }
 #group7 .parallax__layer--base {
-  background: rgb(255,241,100);
+  background: white;
 }
