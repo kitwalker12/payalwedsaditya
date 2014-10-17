@@ -30,11 +30,10 @@ gem 'spring',        group: :development
 gem 'bundler'
 
 gem 'google-analytics-rails'
-gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
-gem 'bootstrap-sass-extras'
 gem 'binding_of_caller'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
+gem 'rails_12factor', group: :production
 
 group :development do
   gem 'pry-rails'
@@ -44,3 +43,5 @@ end
 group :development, :test do
   gem 'dotenv-rails'
 end
+
+ruby "2.0.0"
