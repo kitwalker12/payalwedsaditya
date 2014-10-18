@@ -148,3 +148,35 @@ body {
 #group7 .parallax__layer--base {
   background: white;
 }
+
+#group8 {
+  z-index: 4; /* slide over group 7 */
+}
+#group8 .parallax__layer--base {
+  background: white;
+}
+
+.registry-button {
+    font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0px 0px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #ED5E2F;
+    color: #FFF;
+    border: 0px none;
+    outline: 0px none;
+    padding: 80px 10px;
+}
+
+.registry-button:hover {
+    background: #74A599;
+}
+
+.registry-button:active {
+    background: #F6A953;
+}
