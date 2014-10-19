@@ -192,3 +192,20 @@ body {
     height: 40px;
   }
 }
+
+
+/* media query
+--------------------------------------------- */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  #group1 .title {
+    font-size: 65px;
+    line-height: 40px;
+  }
+
+  .registry-button {
+    padding: 50px;
+  }
+}
